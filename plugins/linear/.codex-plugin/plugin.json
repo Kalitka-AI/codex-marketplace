@@ -1,0 +1,19 @@
+{
+  "name": "linear",
+  "version": "0.1.0",
+  "description": "Linear из Codex через официальный remote MCP-сервер mcp.linear.app: задачи, проекты, комментарии. Авторизация — OAuth в браузере, без настройки окружения.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": ["linear", "issues", "project management", "mcp"],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Linear",
+    "shortDescription": "Задачи и проекты Linear",
+    "longDescription": "Подключает официальный MCP-сервер Linear (mcp.linear.app): поиск и создание задач, проекты, комментарии, статусы. Пользователь логинится в свой Linear-аккаунт через OAuth в браузере — сервер поддерживает Dynamic Client Registration, никакой настройки не требуется.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"]
+  }
+}
