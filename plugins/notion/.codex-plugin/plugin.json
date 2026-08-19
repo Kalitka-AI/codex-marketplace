@@ -1,0 +1,18 @@
+{
+  "name": "notion",
+  "version": "0.1.0",
+  "description": "Notion через официальный коннектор OpenAI: логин в свой аккаунт при установке.",
+  "author": {"name": "Navetix"},
+  "license": "MIT",
+  "keywords": ["notion", "docs", "knowledge"],
+  "apps": "./.app.json",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Notion",
+    "shortDescription": "Страницы и базы Notion",
+    "longDescription": "Поиск и правка страниц Notion. Авторизация — вход в свой аккаунт Notion при установке.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"]
+  }
+}
