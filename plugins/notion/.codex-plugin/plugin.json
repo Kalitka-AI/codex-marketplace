@@ -1,18 +1,26 @@
 {
   "name": "notion",
-  "version": "0.1.0",
-  "description": "Notion через официальный коннектор OpenAI: логин в свой аккаунт при установке.",
-  "author": {"name": "Navetix"},
+  "version": "0.2.0",
+  "description": "Notion через официальный remote MCP: страницы, базы, поиск. Авторизация — OAuth-логин в свой аккаунт Notion, без переменных окружения.",
+  "author": {
+    "name": "Navetix"
+  },
   "license": "MIT",
-  "keywords": ["notion", "docs", "knowledge"],
-  "apps": "./.app.json",
+  "keywords": [
+    "notion",
+    "docs",
+    "knowledge"
+  ],
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Notion",
     "shortDescription": "Страницы и базы Notion",
-    "longDescription": "Поиск и правка страниц Notion. Авторизация — вход в свой аккаунт Notion при установке.",
+    "longDescription": "Поиск и правка страниц и баз Notion через официальный сервер mcp.notion.com. Пользователь логинится в свой аккаунт Notion через браузер — переменные окружения не нужны.",
     "developerName": "Navetix",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"]
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
   }
 }
