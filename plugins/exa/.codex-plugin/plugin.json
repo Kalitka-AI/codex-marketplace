@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Exa Search",
     "shortDescription": "Нейропоиск по вебу",
     "longDescription": "Семантический поиск по вебу и загрузка найденных страниц через Exa. Тулы: web_search_exa, web_fetch_exa. Дополняет встроенный web_search, когда нужен именно поиск по смыслу.",

@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "Intercom",
     "shortDescription": "Диалоги и контакты Intercom",
     "longDescription": "Официальный сервер Intercom: переписки с пользователями, контакты, статьи базы знаний.",

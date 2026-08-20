@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Atlassian (Jira + Confluence)",
     "shortDescription": "Задачи Jira и страницы Confluence",
     "longDescription": "Официальный сервер Atlassian: одним плагином и Jira (задачи, спринты, переходы статусов), и Confluence (поиск и правка страниц).",

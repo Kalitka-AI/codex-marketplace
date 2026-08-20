@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Zapier",
     "shortDescription": "8000+ приложений через Zapier",
     "longDescription": "Официальный сервер Zapier: агент вызывает действия в любом из тысяч подключённых приложений. Набор тулов определяется тем, что вы разрешили в настройках своего Zapier MCP.",

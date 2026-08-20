@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo.png",
     "displayName": "Microsoft Learn",
     "shortDescription": "Документация Microsoft, .NET и Azure",
     "longDescription": "Официальный сервер Microsoft Learn: поиск по документации, поиск примеров кода и загрузка конкретных страниц. Тулы: microsoft_docs_search, microsoft_code_sample_search, microsoft_docs_fetch.",

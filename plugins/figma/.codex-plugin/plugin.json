@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Figma",
     "shortDescription": "Дизайн-файлы Figma в контексте агента",
     "longDescription": "Официальный сервер Figma: агент читает фреймы, компоненты и переменные из файла и генерирует по ним вёрстку.",

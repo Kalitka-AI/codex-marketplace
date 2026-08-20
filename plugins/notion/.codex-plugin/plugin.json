@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "Notion",
     "shortDescription": "Страницы и базы Notion",
     "longDescription": "Поиск и правка страниц и баз Notion через официальный сервер mcp.notion.com. Пользователь логинится в свой аккаунт Notion через браузер — переменные окружения не нужны.",

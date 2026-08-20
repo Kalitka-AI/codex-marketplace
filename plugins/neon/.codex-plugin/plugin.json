@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Neon",
     "shortDescription": "Serverless Postgres от Neon",
     "longDescription": "Официальный сервер Neon: проекты и ветки базы, SQL-запросы, миграции.",

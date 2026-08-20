@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Stripe",
     "shortDescription": "Платежи, подписки и клиенты Stripe",
     "longDescription": "Официальный сервер Stripe: платежи, подписки, клиенты, товары и цены, поиск по документации Stripe.",

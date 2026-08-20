@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "ClickUp",
     "shortDescription": "Задачи, доки и чат ClickUp",
     "longDescription": "Официальный сервер ClickUp: задачи, документы, чат, пространства и списки.",

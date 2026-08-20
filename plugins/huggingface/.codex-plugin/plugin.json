@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "Hugging Face",
     "shortDescription": "Модели, датасеты и Spaces",
     "longDescription": "Официальный сервер Hugging Face: поиск моделей и датасетов, чтение карточек, Spaces и инференс. Анонимно работает в режиме чтения; логин добавляет доступ к приватным репозиториям и inference API.",

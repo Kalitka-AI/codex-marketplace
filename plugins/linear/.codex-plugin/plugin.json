@@ -6,14 +6,24 @@
     "name": "Navetix"
   },
   "license": "MIT",
-  "keywords": ["linear", "issues", "project management", "mcp"],
+  "keywords": [
+    "linear",
+    "issues",
+    "project management",
+    "mcp"
+  ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Linear",
     "shortDescription": "Задачи и проекты Linear",
     "longDescription": "Подключает официальный MCP-сервер Linear (mcp.linear.app): поиск и создание задач, проекты, комментарии, статусы. Пользователь логинится в свой Linear-аккаунт через OAuth в браузере — сервер поддерживает Dynamic Client Registration, никакой настройки не требуется.",
     "developerName": "Navetix",
     "category": "Productivity",
-    "capabilities": ["Read", "Write"]
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
   }
 }

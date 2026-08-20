@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "PostHog",
     "shortDescription": "Продуктовая аналитика PostHog",
     "longDescription": "Официальный сервер PostHog: события и инсайты, дашборды, фича-флаги, session replay, эксперименты.",

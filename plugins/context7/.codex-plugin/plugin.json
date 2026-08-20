@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Context7",
     "shortDescription": "Актуальная документация библиотек",
     "longDescription": "Подтягивает свежую документацию и примеры кода любой библиотеки прямо в контекст агента вместо того, что модель помнит по обучающей выборке. Тулы: resolve-library-id, query-docs. Работает без ключа; ключ нужен только для повышенных лимитов.",

@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Canva",
     "shortDescription": "Дизайны и бренд-шаблоны Canva",
     "longDescription": "Официальный сервер Canva: создание и правка дизайнов, папки, бренд-шаблоны, экспорт.",

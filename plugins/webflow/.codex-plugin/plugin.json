@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Webflow",
     "shortDescription": "Сайты, CMS и публикации Webflow",
     "longDescription": "Официальный сервер Webflow: сайты, коллекции CMS, страницы, публикация.",

@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "Square",
     "shortDescription": "Заказы, платежи и каталог Square",
     "longDescription": "Официальный сервер Square: платежи, заказы, каталог товаров, клиенты, инвентарь.",

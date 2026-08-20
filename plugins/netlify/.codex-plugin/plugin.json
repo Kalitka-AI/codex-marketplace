@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Netlify",
     "shortDescription": "Сайты и деплои Netlify",
     "longDescription": "Официальный сервер Netlify: сайты, деплои, переменные окружения, функции и логи.",

@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "Sentry",
     "shortDescription": "Ошибки, релизы и трейсы Sentry",
     "longDescription": "Официальный сервер Sentry: поиск ошибок и трейсов, разбор конкретного issue, релизы и проекты. Агент может сам достать стектрейс по падению вместо копипасты из веб-интерфейса.",

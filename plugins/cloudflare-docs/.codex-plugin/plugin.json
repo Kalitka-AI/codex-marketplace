@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Cloudflare Docs",
     "shortDescription": "Документация Cloudflare",
     "longDescription": "Поиск по документации Cloudflare (Workers, Pages, DNS, R2 и остальное) и гайд по миграции Pages → Workers. Тулы: search_cloudflare_documentation, migrate_pages_to_workers_guide.",

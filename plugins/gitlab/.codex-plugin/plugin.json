@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "GitLab",
     "shortDescription": "Мерж-реквесты, issues и пайплайны GitLab",
     "longDescription": "Официальный MCP GitLab.com: issues, merge requests, пайплайны, поиск по коду в своих проектах.",

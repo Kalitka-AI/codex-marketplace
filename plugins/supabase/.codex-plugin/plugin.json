@@ -14,6 +14,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Supabase",
     "shortDescription": "Проекты и база Supabase",
     "longDescription": "Официальный сервер Supabase (Beta): проекты, схема и данные Postgres, ветки, edge-функции, логи.",

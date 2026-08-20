@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo-dark.svg",
     "displayName": "PayPal",
     "shortDescription": "Счета, платежи и подписки PayPal",
     "longDescription": "Официальный сервер PayPal: инвойсы, транзакции, подписки, товары.",

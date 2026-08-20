@@ -13,6 +13,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Asana",
     "shortDescription": "Задачи и проекты Asana",
     "longDescription": "Официальный сервер Asana: задачи, проекты, портфели, комментарии и статусы.",

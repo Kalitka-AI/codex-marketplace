@@ -16,6 +16,8 @@
   ],
   "mcpServers": "./.mcp.json",
   "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
     "displayName": "Cloudflare",
     "shortDescription": "Workers, логи, Radar и рендеринг страниц",
     "longDescription": "Четыре официальных сервера Cloudflare одним плагином: bindings (Workers, KV, R2, D1), observability (логи и аналитика Workers), radar (статистика интернета и трафика), browser (рендеринг страниц и скриншоты).",
