@@ -1,0 +1,26 @@
+{
+  "name": "sentry",
+  "version": "0.1.0",
+  "description": "Sentry через официальный remote MCP: ошибки, трейсы, релизы. Авторизация — OAuth-логин в свой аккаунт Sentry, без переменных окружения.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sentry",
+    "errors",
+    "monitoring",
+    "debugging"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Sentry",
+    "shortDescription": "Ошибки и трейсы прода",
+    "longDescription": "Разбор инцидентов через официальный сервер mcp.sentry.dev: поиск ошибок, стек-трейсы, релизы и их влияние. Пользователь логинится в свой аккаунт Sentry через браузер.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

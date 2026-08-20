@@ -1,0 +1,27 @@
+{
+  "name": "playwright",
+  "version": "0.1.0",
+  "description": "Playwright MCP от Microsoft: написание и прогон e2e-тестов, автоматизация браузера. Авторизация не нужна вовсе.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "playwright",
+    "e2e",
+    "testing",
+    "browser"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Playwright",
+    "shortDescription": "E2E-тесты и автоматизация браузера",
+    "longDescription": "Официальный сервер Microsoft для Playwright: навигация, клики, ввод, снимки страницы и написание e2e-тестов. Никакой авторизации не требует, запускается локально через npx (нужен Node.js).",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}
