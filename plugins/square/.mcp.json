@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "square": {
+      "url": "https://mcp.squareup.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

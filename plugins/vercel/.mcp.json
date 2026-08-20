@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "vercel": {
+      "url": "https://mcp.vercel.com",
+      "startup_timeout_sec": 60
+    }
+  }
+}

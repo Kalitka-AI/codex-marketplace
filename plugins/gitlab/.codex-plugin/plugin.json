@@ -1,0 +1,27 @@
+{
+  "name": "gitlab",
+  "version": "0.1.0",
+  "description": "Официальный MCP GitLab.com: issues, merge requests, пайплайны, поиск по коду в своих проектах.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gitlab",
+    "git",
+    "ci",
+    "issues"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "GitLab",
+    "shortDescription": "Мерж-реквесты, issues и пайплайны GitLab",
+    "longDescription": "Официальный MCP GitLab.com: issues, merge requests, пайплайны, поиск по коду в своих проектах.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "cloudflare-docs",
+  "version": "0.1.0",
+  "description": "Поиск по документации Cloudflare (Workers, Pages, DNS, R2 и остальное) и гайд по миграции Pages → Workers. Тулы: search_cloudflare_documentation, migrate_pages_to_workers_guide.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "docs"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cloudflare Docs",
+    "shortDescription": "Документация Cloudflare",
+    "longDescription": "Поиск по документации Cloudflare (Workers, Pages, DNS, R2 и остальное) и гайд по миграции Pages → Workers. Тулы: search_cloudflare_documentation, migrate_pages_to_workers_guide.",
+    "developerName": "Navetix",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

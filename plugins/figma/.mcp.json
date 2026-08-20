@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "figma": {
+      "url": "https://mcp.figma.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

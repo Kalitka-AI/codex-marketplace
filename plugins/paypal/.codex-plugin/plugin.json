@@ -1,0 +1,26 @@
+{
+  "name": "paypal",
+  "version": "0.1.0",
+  "description": "Официальный сервер PayPal: инвойсы, транзакции, подписки, товары.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "paypal",
+    "payments",
+    "invoices"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PayPal",
+    "shortDescription": "Счета, платежи и подписки PayPal",
+    "longDescription": "Официальный сервер PayPal: инвойсы, транзакции, подписки, товары.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

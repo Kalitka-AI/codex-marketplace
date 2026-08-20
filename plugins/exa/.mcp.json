@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "exa": {
+      "url": "https://mcp.exa.ai/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vercel",
+  "version": "0.1.0",
+  "description": "Официальный сервер Vercel: список проектов и деплоев, логи сборки и рантайма, домены и переменные окружения.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "vercel",
+    "deploy",
+    "hosting",
+    "logs"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Vercel",
+    "shortDescription": "Деплои, логи и проекты Vercel",
+    "longDescription": "Официальный сервер Vercel: список проектов и деплоев, логи сборки и рантайма, домены и переменные окружения.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

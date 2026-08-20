@@ -1,0 +1,27 @@
+{
+  "name": "sentry",
+  "version": "0.1.0",
+  "description": "Официальный сервер Sentry: поиск ошибок и трейсов, разбор конкретного issue, релизы и проекты. Агент может сам достать стектрейс по падению вместо копипасты из веб-интерфейса.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "sentry",
+    "errors",
+    "monitoring",
+    "observability"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Sentry",
+    "shortDescription": "Ошибки, релизы и трейсы Sentry",
+    "longDescription": "Официальный сервер Sentry: поиск ошибок и трейсов, разбор конкретного issue, релизы и проекты. Агент может сам достать стектрейс по падению вместо копипасты из веб-интерфейса.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

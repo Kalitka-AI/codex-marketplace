@@ -1,0 +1,26 @@
+{
+  "name": "clickup",
+  "version": "0.1.0",
+  "description": "Официальный сервер ClickUp: задачи, документы, чат, пространства и списки.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "clickup",
+    "tasks",
+    "project management"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "ClickUp",
+    "shortDescription": "Задачи, доки и чат ClickUp",
+    "longDescription": "Официальный сервер ClickUp: задачи, документы, чат, пространства и списки.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "ms_learn": {
+      "url": "https://learn.microsoft.com/api/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

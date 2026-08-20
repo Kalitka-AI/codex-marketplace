@@ -1,0 +1,27 @@
+{
+  "name": "posthog",
+  "version": "0.1.0",
+  "description": "Официальный сервер PostHog: события и инсайты, дашборды, фича-флаги, session replay, эксперименты.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "posthog",
+    "analytics",
+    "feature flags",
+    "product"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "PostHog",
+    "shortDescription": "Продуктовая аналитика PostHog",
+    "longDescription": "Официальный сервер PostHog: события и инсайты, дашборды, фича-флаги, session replay, эксперименты.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

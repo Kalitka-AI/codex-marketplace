@@ -1,0 +1,25 @@
+{
+  "name": "context7",
+  "version": "0.1.0",
+  "description": "Подтягивает свежую документацию и примеры кода любой библиотеки прямо в контекст агента вместо того, что модель помнит по обучающей выборке. Тулы: resolve-library-id, query-docs. Работает без ключа; ключ нужен только для повышенных лимитов.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "docs",
+    "libraries",
+    "context"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Context7",
+    "shortDescription": "Актуальная документация библиотек",
+    "longDescription": "Подтягивает свежую документацию и примеры кода любой библиотеки прямо в контекст агента вместо того, что модель помнит по обучающей выборке. Тулы: resolve-library-id, query-docs. Работает без ключа; ключ нужен только для повышенных лимитов.",
+    "developerName": "Navetix",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

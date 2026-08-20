@@ -1,0 +1,26 @@
+{
+  "name": "ms-learn",
+  "version": "0.1.0",
+  "description": "Официальный сервер Microsoft Learn: поиск по документации, поиск примеров кода и загрузка конкретных страниц. Тулы: microsoft_docs_search, microsoft_code_sample_search, microsoft_docs_fetch.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "microsoft",
+    "azure",
+    "dotnet",
+    "docs"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Microsoft Learn",
+    "shortDescription": "Документация Microsoft, .NET и Azure",
+    "longDescription": "Официальный сервер Microsoft Learn: поиск по документации, поиск примеров кода и загрузка конкретных страниц. Тулы: microsoft_docs_search, microsoft_code_sample_search, microsoft_docs_fetch.",
+    "developerName": "Navetix",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

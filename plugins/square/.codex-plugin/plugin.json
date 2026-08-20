@@ -1,0 +1,26 @@
+{
+  "name": "square",
+  "version": "0.1.0",
+  "description": "Официальный сервер Square: платежи, заказы, каталог товаров, клиенты, инвентарь.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "square",
+    "payments",
+    "commerce"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Square",
+    "shortDescription": "Заказы, платежи и каталог Square",
+    "longDescription": "Официальный сервер Square: платежи, заказы, каталог товаров, клиенты, инвентарь.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "atlassian",
+  "version": "0.1.0",
+  "description": "Официальный сервер Atlassian: одним плагином и Jira (задачи, спринты, переходы статусов), и Confluence (поиск и правка страниц).",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jira",
+    "confluence",
+    "atlassian",
+    "issues"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Atlassian (Jira + Confluence)",
+    "shortDescription": "Задачи Jira и страницы Confluence",
+    "longDescription": "Официальный сервер Atlassian: одним плагином и Jira (задачи, спринты, переходы статусов), и Confluence (поиск и правка страниц).",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

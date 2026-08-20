@@ -1,0 +1,27 @@
+{
+  "name": "supabase",
+  "version": "0.1.0",
+  "description": "Официальный сервер Supabase (Beta): проекты, схема и данные Postgres, ветки, edge-функции, логи.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "supabase",
+    "postgres",
+    "database",
+    "backend"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Supabase",
+    "shortDescription": "Проекты и база Supabase",
+    "longDescription": "Официальный сервер Supabase (Beta): проекты, схема и данные Postgres, ветки, edge-функции, логи.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "intercom",
+  "version": "0.1.0",
+  "description": "Официальный сервер Intercom: переписки с пользователями, контакты, статьи базы знаний.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "intercom",
+    "support",
+    "crm"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Intercom",
+    "shortDescription": "Диалоги и контакты Intercom",
+    "longDescription": "Официальный сервер Intercom: переписки с пользователями, контакты, статьи базы знаний.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

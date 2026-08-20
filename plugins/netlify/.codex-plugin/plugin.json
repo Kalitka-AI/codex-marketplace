@@ -1,0 +1,26 @@
+{
+  "name": "netlify",
+  "version": "0.1.0",
+  "description": "Официальный сервер Netlify: сайты, деплои, переменные окружения, функции и логи.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "netlify",
+    "deploy",
+    "hosting"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Netlify",
+    "shortDescription": "Сайты и деплои Netlify",
+    "longDescription": "Официальный сервер Netlify: сайты, деплои, переменные окружения, функции и логи.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

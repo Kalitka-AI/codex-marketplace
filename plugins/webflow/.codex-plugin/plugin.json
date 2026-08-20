@@ -1,0 +1,26 @@
+{
+  "name": "webflow",
+  "version": "0.1.0",
+  "description": "Официальный сервер Webflow: сайты, коллекции CMS, страницы, публикация.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "webflow",
+    "cms",
+    "website"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Webflow",
+    "shortDescription": "Сайты, CMS и публикации Webflow",
+    "longDescription": "Официальный сервер Webflow: сайты, коллекции CMS, страницы, публикация.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

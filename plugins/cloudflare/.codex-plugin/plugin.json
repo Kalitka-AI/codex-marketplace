@@ -1,0 +1,29 @@
+{
+  "name": "cloudflare",
+  "version": "0.1.0",
+  "description": "Четыре официальных сервера Cloudflare одним плагином: bindings (Workers, KV, R2, D1), observability (логи и аналитика Workers), radar (статистика интернета и трафика), browser (рендеринг страниц и скриншоты).",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "kv",
+    "r2",
+    "d1",
+    "observability"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Cloudflare",
+    "shortDescription": "Workers, логи, Radar и рендеринг страниц",
+    "longDescription": "Четыре официальных сервера Cloudflare одним плагином: bindings (Workers, KV, R2, D1), observability (логи и аналитика Workers), radar (статистика интернета и трафика), browser (рендеринг страниц и скриншоты).",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

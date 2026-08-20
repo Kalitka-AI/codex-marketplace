@@ -1,0 +1,26 @@
+{
+  "name": "stripe",
+  "version": "0.1.0",
+  "description": "Официальный сервер Stripe: платежи, подписки, клиенты, товары и цены, поиск по документации Stripe.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "stripe",
+    "payments",
+    "billing"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Stripe",
+    "shortDescription": "Платежи, подписки и клиенты Stripe",
+    "longDescription": "Официальный сервер Stripe: платежи, подписки, клиенты, товары и цены, поиск по документации Stripe.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

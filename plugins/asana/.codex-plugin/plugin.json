@@ -1,0 +1,26 @@
+{
+  "name": "asana",
+  "version": "0.1.0",
+  "description": "Официальный сервер Asana: задачи, проекты, портфели, комментарии и статусы.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "asana",
+    "tasks",
+    "project management"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Asana",
+    "shortDescription": "Задачи и проекты Asana",
+    "longDescription": "Официальный сервер Asana: задачи, проекты, портфели, комментарии и статусы.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

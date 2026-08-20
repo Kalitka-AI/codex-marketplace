@@ -1,0 +1,26 @@
+{
+  "name": "deepwiki",
+  "version": "0.1.0",
+  "description": "Задаёт вопросы по коду и архитектуре публичного репозитория GitHub и читает сгенерированную по нему вики. Тулы: ask_question, read_wiki_contents, read_wiki_structure. Полезно, когда надо быстро разобраться в чужой библиотеке.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "docs",
+    "wiki",
+    "research"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "DeepWiki",
+    "shortDescription": "Вопросы к любому публичному GitHub-репо",
+    "longDescription": "Задаёт вопросы по коду и архитектуре публичного репозитория GitHub и читает сгенерированную по нему вики. Тулы: ask_question, read_wiki_contents, read_wiki_structure. Полезно, когда надо быстро разобраться в чужой библиотеке.",
+    "developerName": "Navetix",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

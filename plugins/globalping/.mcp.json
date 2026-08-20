@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "globalping": {
+      "url": "https://mcp.globalping.dev/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

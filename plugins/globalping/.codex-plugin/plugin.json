@@ -1,0 +1,27 @@
+{
+  "name": "globalping",
+  "version": "0.1.0",
+  "description": "ping, traceroute, DNS-резолв, MTR и HTTP-проверки с сотен точек по всему миру — удобно, когда надо понять, доступен ли сервис из конкретной страны.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "network",
+    "ping",
+    "dns",
+    "traceroute",
+    "latency"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Globalping",
+    "shortDescription": "Сетевые пробы с точек по всему миру",
+    "longDescription": "ping, traceroute, DNS-резолв, MTR и HTTP-проверки с сотен точек по всему миру — удобно, когда надо понять, доступен ли сервис из конкретной страны.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

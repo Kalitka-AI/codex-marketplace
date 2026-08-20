@@ -1,0 +1,25 @@
+{
+  "name": "exa",
+  "version": "0.1.0",
+  "description": "Семантический поиск по вебу и загрузка найденных страниц через Exa. Тулы: web_search_exa, web_fetch_exa. Дополняет встроенный web_search, когда нужен именно поиск по смыслу.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "search",
+    "web",
+    "research"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Exa Search",
+    "shortDescription": "Нейропоиск по вебу",
+    "longDescription": "Семантический поиск по вебу и загрузка найденных страниц через Exa. Тулы: web_search_exa, web_fetch_exa. Дополняет встроенный web_search, когда нужен именно поиск по смыслу.",
+    "developerName": "Navetix",
+    "category": "Research",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

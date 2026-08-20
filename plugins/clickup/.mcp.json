@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "clickup": {
+      "url": "https://mcp.clickup.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

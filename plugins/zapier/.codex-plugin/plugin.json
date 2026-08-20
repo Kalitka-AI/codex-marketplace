@@ -1,0 +1,26 @@
+{
+  "name": "zapier",
+  "version": "0.1.0",
+  "description": "Официальный сервер Zapier: агент вызывает действия в любом из тысяч подключённых приложений. Набор тулов определяется тем, что вы разрешили в настройках своего Zapier MCP.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "zapier",
+    "automation",
+    "integrations"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Zapier",
+    "shortDescription": "8000+ приложений через Zapier",
+    "longDescription": "Официальный сервер Zapier: агент вызывает действия в любом из тысяч подключённых приложений. Набор тулов определяется тем, что вы разрешили в настройках своего Zapier MCP.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "netlify": {
+      "url": "https://netlify-mcp.netlify.app/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

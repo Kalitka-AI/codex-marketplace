@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aws_knowledge": {
+      "url": "https://knowledge-mcp.global.api.aws/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

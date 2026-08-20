@@ -1,0 +1,26 @@
+{
+  "name": "neon",
+  "version": "0.1.0",
+  "description": "Официальный сервер Neon: проекты и ветки базы, SQL-запросы, миграции.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "neon",
+    "postgres",
+    "database"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Neon",
+    "shortDescription": "Serverless Postgres от Neon",
+    "longDescription": "Официальный сервер Neon: проекты и ветки базы, SQL-запросы, миграции.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

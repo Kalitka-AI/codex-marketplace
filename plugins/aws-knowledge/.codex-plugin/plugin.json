@@ -1,0 +1,25 @@
+{
+  "name": "aws-knowledge",
+  "version": "0.1.0",
+  "description": "Официальный AWS Knowledge MCP: поиск и чтение документации AWS, список регионов и проверка доступности сервиса в регионе. Тулы: aws___search_documentation, aws___read_documentation, aws___list_regions, aws___get_regional_availability, aws___retrieve_skill.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "cloud",
+    "docs"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "AWS Knowledge",
+    "shortDescription": "Документация и регионы AWS",
+    "longDescription": "Официальный AWS Knowledge MCP: поиск и чтение документации AWS, список регионов и проверка доступности сервиса в регионе. Тулы: aws___search_documentation, aws___read_documentation, aws___list_regions, aws___get_regional_availability, aws___retrieve_skill.",
+    "developerName": "Navetix",
+    "category": "Education & Research",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

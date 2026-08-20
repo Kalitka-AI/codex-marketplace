@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "cloudflare_docs": {
+      "url": "https://docs.mcp.cloudflare.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

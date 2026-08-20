@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "asana": {
+      "url": "https://mcp.asana.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "prisma",
+  "version": "0.1.0",
+  "description": "Официальный сервер Prisma: работа со схемой, миграции и управление базами Prisma Postgres.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "prisma",
+    "orm",
+    "database",
+    "migrations"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Prisma",
+    "shortDescription": "Схемы, миграции и Prisma Postgres",
+    "longDescription": "Официальный сервер Prisma: работа со схемой, миграции и управление базами Prisma Postgres.",
+    "developerName": "Navetix",
+    "category": "Engineering",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}

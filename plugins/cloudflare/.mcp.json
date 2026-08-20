@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "cloudflare_bindings": {
+      "url": "https://bindings.mcp.cloudflare.com/mcp",
+      "startup_timeout_sec": 60
+    },
+    "cloudflare_observability": {
+      "url": "https://observability.mcp.cloudflare.com/mcp",
+      "startup_timeout_sec": 60
+    },
+    "cloudflare_radar": {
+      "url": "https://radar.mcp.cloudflare.com/mcp",
+      "startup_timeout_sec": 60
+    },
+    "cloudflare_browser": {
+      "url": "https://browser.mcp.cloudflare.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "paypal": {
+      "url": "https://mcp.paypal.com/mcp",
+      "startup_timeout_sec": 60
+    }
+  }
+}
