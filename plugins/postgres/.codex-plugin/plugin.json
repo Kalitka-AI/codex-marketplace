@@ -1,0 +1,31 @@
+{
+  "name": "postgres",
+  "version": "0.1.0",
+  "description": "Postgres в агенте: схема, планы запросов, здоровье базы и подсказки по индексам. Читает базу по строке подключения из вашего окружения.",
+  "author": {
+    "name": "Navetix"
+  },
+  "homepage": "https://github.com/crystaldba/postgres-mcp",
+  "license": "MIT",
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "database",
+    "sql",
+    "performance"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
+    "displayName": "PostgreSQL",
+    "shortDescription": "Схема и производительность вашей базы",
+    "longDescription": "Postgres MCP Pro: схема и объекты, EXPLAIN, здоровье базы, подсказки по индексам и выполнение SQL. Работает по строке подключения DATABASE_URI из вашего окружения — после установки попросите агента настроить подключение.",
+    "developerName": "Crystal DBA",
+    "category": "Engineering",
+    "capabilities": [
+      "Read"
+    ]
+  }
+}

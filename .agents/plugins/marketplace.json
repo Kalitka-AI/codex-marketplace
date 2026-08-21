@@ -363,6 +363,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Education & Research"
+    },
+    {
+      "name": "postgres",
+      "source": {
+        "source": "local",
+        "path": "./plugins/postgres"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Engineering"
     }
   ]
 }

@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "uvx",
+      "args": [
+        "--with",
+        "mcp[cli]<2",
+        "postgres-mcp",
+        "--access-mode=restricted"
+      ],
+      "env_vars": [
+        "DATABASE_URI"
+      ],
+      "startup_timeout_sec": 120
+    }
+  }
+}
