@@ -17,8 +17,8 @@ codex mcp login linear
 После установки плагина **перезапустите сессию Codex** — новые MCP-серверы
 не подхватываются на лету.
 
-Обновить каталог: `codex plugin marketplace upgrade`.
-Удалить плагин: `codex plugin remove <name> --marketplace kalitka`.
+- Обновить каталог: `codex plugin marketplace upgrade`.
+- Удалить плагин: `codex plugin remove <name> --marketplace kalitka`.
 
 ## Плагины
 
