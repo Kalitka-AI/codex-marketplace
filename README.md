@@ -28,6 +28,7 @@ codex mcp login linear
 
 | Плагин | Что даёт | Авторизация |
 |---|---|---|
+| [Kalitka AI](plugins/kalitka-ai) | Навыки Kalitka AI: картинки Nano Banana | ✅ |
 | [Linear](plugins/linear) | Задачи и проекты Linear | 🔑 |
 | [Notion](plugins/notion) | Страницы и базы Notion | 🔑 |
 | [Atlassian](plugins/atlassian) | Задачи Jira и страницы Confluence | 🔑 |
