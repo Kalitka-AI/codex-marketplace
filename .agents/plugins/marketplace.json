@@ -377,10 +377,10 @@
       "category": "Engineering"
     },
     {
-      "name": "kalitka-ai",
+      "name": "nano-banana",
       "source": {
         "source": "local",
-        "path": "./plugins/kalitka-ai"
+        "path": "./plugins/nano-banana"
       },
       "policy": {
         "installation": "INSTALLED_BY_DEFAULT",

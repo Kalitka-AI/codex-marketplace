@@ -1,6 +1,0 @@
-interface:
-  display_name: "Nano Banana"
-  short_description: "Draw or edit an image with Nano Banana"
-  icon_small: "./assets/nano-banana.svg"
-  icon_large: "./assets/nano-banana.svg"
-  default_prompt: "Use $nano-banana to draw or edit an image with Nano Banana."
