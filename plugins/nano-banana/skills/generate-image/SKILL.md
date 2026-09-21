@@ -1,9 +1,9 @@
 ---
-name: images
+name: generate-image
 description: Generate or edit a raster image with Nano Banana (Google Gemini image model). Use ONLY when the user explicitly asks for Nano Banana, Gemini or Google image generation, or invokes this skill; for every other image request use the built-in image_gen tool.
 ---
 
-# Nano Banana: images
+# Nano Banana: generate image
 
 Draws and edits images with Nano Banana through the `generate_image` tool.
 
