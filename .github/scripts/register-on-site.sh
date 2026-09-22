@@ -18,7 +18,7 @@ shift 3
 # One call for everything, `--replace` on it: a component has one draft, and a version
 # left in it from an earlier release would publish together with this one under the
 # older number. A signature in the same call joins the artifact it is named after.
-args=(--replace --version "$version")
+args=(--replace --release-version "$version")
 for f in "$@"; do
   name=$(basename "$f")
   case "$name" in
