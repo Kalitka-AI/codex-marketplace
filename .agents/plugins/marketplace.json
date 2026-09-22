@@ -375,6 +375,18 @@
         "authentication": "ON_USE"
       },
       "category": "Engineering"
+    },
+    {
+      "name": "nano-banana",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nano-banana"
+      },
+      "policy": {
+        "installation": "INSTALLED_BY_DEFAULT",
+        "authentication": "ON_USE"
+      },
+      "category": "Productivity"
     }
   ]
 }

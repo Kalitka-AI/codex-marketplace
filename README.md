@@ -28,6 +28,7 @@ codex mcp login linear
 
 | Плагин | Что даёт | Авторизация |
 |---|---|---|
+| [Nano Banana](plugins/nano-banana) | Картинки моделью Nano Banana | ✅ |
 | [Linear](plugins/linear) | Задачи и проекты Linear | 🔑 |
 | [Notion](plugins/notion) | Страницы и базы Notion | 🔑 |
 | [Atlassian](plugins/atlassian) | Задачи Jira и страницы Confluence | 🔑 |

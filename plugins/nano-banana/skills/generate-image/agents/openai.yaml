@@ -1,0 +1,6 @@
+interface:
+  display_name: "Generate image"
+  short_description: "Draw or edit an image with Nano Banana"
+  icon_small: "../../assets/logo.svg"
+  icon_large: "../../assets/logo.svg"
+  default_prompt: "Use $generate-image to draw or edit an image with Nano Banana."

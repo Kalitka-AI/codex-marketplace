@@ -1,0 +1,28 @@
+{
+  "name": "nano-banana",
+  "version": "0.1.0",
+  "description": "Nano Banana (Google) в Codex: рисует и правит картинки, когда нужна именно она, а не встроенный генератор.",
+  "author": {
+    "name": "Navetix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "images",
+    "nano banana",
+    "gemini"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "logo": "./assets/logo.svg",
+    "logoDark": "./assets/logo.svg",
+    "displayName": "Nano Banana",
+    "shortDescription": "Картинки моделью Nano Banana",
+    "longDescription": "Nano Banana (Google) в Codex: рисует и правит картинки, когда нужна именно она, а не встроенный генератор.",
+    "developerName": "Navetix",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ]
+  }
+}
