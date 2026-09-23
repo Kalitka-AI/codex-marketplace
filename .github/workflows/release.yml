@@ -1,0 +1,118 @@
+name: release
+
+# Собирает архив каталога из HEAD. Кладёт архив в GitHub Release и в бакет стенда.
+# Регистрирует черновик релиза на сайте. Релиз публикует человек в админке.
+# Версия: YY.MDD.N, где N — номер релиза за этот день.
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Which environment to release to
+        type: choice
+        options: [dev, prod]
+        required: true
+
+permissions: {}
+
+concurrency:
+  group: marketplace-release-${{ inputs.environment }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - id: plan
+        name: Version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          base=$(date -u +%y.%-m%d)
+          n=$(git tag --list "v$base.*" | wc -l | tr -d ' ')
+          version="$base.$n"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "tag=v$version" >> "$GITHUB_OUTPUT"
+          echo "## $version" >> "$GITHUB_STEP_SUMMARY"
+
+      # Архив берётся из коммита. В него попадают только файлы из репозитория.
+      - name: Archive
+        env:
+          VERSION: ${{ steps.plan.outputs.version }}
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          git archive --format=zip -o "out/kalitka-marketplace-$VERSION.zip" HEAD .agents plugins
+          unzip -l "out/kalitka-marketplace-$VERSION.zip" | grep -q '.agents/plugins/marketplace.json'
+          ls -l out
+
+      - name: GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.plan.outputs.tag }}
+          ENVIRONMENT: ${{ inputs.environment }}
+        run: |
+          set -euo pipefail
+          {
+            echo '| artifact | size | sha256 |'
+            echo '|---|---|---|'
+            for f in out/*.zip; do
+              printf '| %s | %s | `%s` |\n' "$(basename "$f")" "$(stat -c%s "$f")" "$(sha256sum "$f" | cut -d' ' -f1)"
+            done
+            echo
+            echo 'The file reaches the site on its own. Publish it in the admin.'
+          } > notes.md
+          if [ "$ENVIRONMENT" = prod ]; then
+            gh release create "$TAG" out/*.zip --title "$TAG" --notes-file notes.md --latest
+          else
+            gh release create "$TAG" out/*.zip --title "$TAG" --notes-file notes.md --prerelease
+          fi
+
+      - uses: aws-actions/configure-aws-credentials@cbe3b392738ccf3f987d68400dafcf4b0624a56c # v6.2.4
+        with:
+          role-to-assume: ${{ vars.AWS_ROLE_ARN }}
+          aws-region: eu-north-1
+
+      - name: Artifact to the bucket
+        env:
+          BUCKET: ${{ vars.RELEASES_BUCKET }}
+          URL: ${{ vars.RELEASES_URL }}
+        run: |
+          set -euo pipefail
+          .github/scripts/put-artifacts.sh "$BUCKET" marketplace "$URL" out/*.zip | tee urls.txt
+          { echo; echo "Downloads:"; sed 's/^/- /' urls.txt; } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Open the ssh key
+        env:
+          SSH_KEY: ${{ secrets.SITE_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.SITE_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/site
+          chmod 600 ~/.ssh/site
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Register the file with the draft release
+        env:
+          HOST: ${{ vars.SITE_HOST }}
+          SSH_USER: ${{ vars.SITE_USER }}
+          DIR: ${{ vars.SITE_DIR }}
+          VERSION: ${{ steps.plan.outputs.version }}
+        run: |
+          set -euo pipefail
+          out=$(.github/scripts/register-on-site.sh marketplace marketplace "$VERSION" out/*.zip)
+          echo "$out"
+          printf '%s' "$out" | grep -q '__REGISTER_DONE__'
+          printf '%s' "$out" | grep -q 'ready to publish'
